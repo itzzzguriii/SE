@@ -1,0 +1,40 @@
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: transparent;
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 100px; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    position:relative;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: green;
+    color: white;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: green;
+    color: white;
+  }
+
+  .continent_div {
+    width: 45%;
+    float:left;
+    display: block;
+    height: 400px;
+    margin: 2%;
+  }
